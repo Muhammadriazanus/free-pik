@@ -1,0 +1,134 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+.content{
+    background-color: lightblue;
+    text-align: center;
+    color:black;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    height: 10vh;
+}
+.content button{
+    background: blue;
+    color: white;
+    height: 40px;
+    width: 150px;
+    margin-top: 10px;
+    border: 1px solid blue;
+    
+
+}
+.content h2{
+    /* font-size: 10px; */
+    margin-top: 12px;
+    font-size :30px;;
+}
+.trending{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 67px;
+
+
+}
+.trending p{
+    margin-top: 10px;
+    font-size: 21px;
+}
+.trending h1{
+    color: blue;
+}
+.compound{
+    text-align: center;
+}
+
+
+.grid_system{
+    display: grid;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    /* grid-template-rows: 1fr 1fr 1fr 1fr 1fr; */
+    position: absolute;
+
+    gap: 10px;
+    /* display: grid; */
+    /* grid-template-areas:  */
+    /* ; */
+}
+.imges1 {
+    grid-area: I1;
+
+     /* grid-row: 1 / -1;
+    /* grid-column: 2 / 2;  */
+     /* grid-column-start: ;  */ 
+    /* grid-row-end: ;  */
+    /* height: 209px;
+    width: 26vw;
+    position: relative;
+    top: 10px; */
+
+    /* grid-row-start: 1;
+    grid-row-end: 2; */
+}
+.imges2{
+    grid-area: I2;
+}
+.imges2 img{
+    /* grid-area: I2; */
+    height: 50%;
+    /* grid-column-start: 5; */
+    /* grid-row-end: 3; */
+}
+.imges3{
+    grid-area: I3;
+}
+.imges3 img{
+    grid-area: I3;
+    height: 50%;
+    margin-right: -300px;
+
+
+    /* gap: ; */
+}
+.imges4{
+    grid-area: I4;
+    /* grid-row-start: 1; */
+    /* grid-row-end: ; */
+    height: 50%;
+    /* grid-row-end: 2; */
+}
+.imges4 img{
+    height: 70%;
+}
+.imges5{
+    grid-area: I5;
+}
+.imges5 img{
+    height: 70%;
+}
+.imges6{
+    grid-area: I6;
+}
+.imges6 img{
+    height: 70%;
+}
+.imges7{
+    grid-area: I7;
+}
+.imges7 img{
+    height: 70%;
+}
+.imges8{
+    grid-area: I8;
+}
+.imges8 img{
+    height: 70%;
+}
+.imges9{
+    grid-area: I9;
+}
+.imges9 img{
+    /* grid-area: I9; */
+    height: 70%;
+}
